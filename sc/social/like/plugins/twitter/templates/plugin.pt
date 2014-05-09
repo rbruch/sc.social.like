@@ -2,7 +2,7 @@
 	<!-- Twitter -->
     <a href="https://twitter.com/share"
        class="twitter-share-button"
-       tal:attributes="data-count view/typebutton;
+       tal:attributes="data-count string:none;
                        data-via   view/twittvia;
                        data-url   view/url;
                        data-lang  view/language;

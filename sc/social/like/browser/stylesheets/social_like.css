@@ -3,3 +3,20 @@
 #viewlet-social-like .fb_edge_widget_with_comment {position: relative; margin-top: 0px;}
 .twitter-share-button {margin-top: 0.8px;}
 .horizontal .fb_iframe_widget iframe {height: 23px !important;}
+
+/* additions */
+#viewlet-social-like div {
+display: inline-block;
+margin-right: 23px;
+}
+.sociallike-network-facebook {
+width: 49px !important;
+}
+#viewlet-social-like div.fb-like span {
+vertical-align: top !important;
+margin-top: -5px;
+}
+#___plusone_0 iframe {
+top: 5px !important;
+margin-bottom: -4px !important;
+}

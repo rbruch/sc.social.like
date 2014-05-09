@@ -1,8 +1,8 @@
 <tal:gp>
 	<!-- Google+ -->
     <div class="g-plusone"
-       tal:attributes="data-annotation string:bubble;
-                       data-size view/typebutton;
+       tal:attributes="data-annotation string:none;
+                       data-size string:tall;
                        data-href view/url;
                        data-lang view/language;"></div>
 </tal:gp>

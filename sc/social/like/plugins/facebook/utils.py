@@ -5,6 +5,8 @@ from config import FB_LOCALES
 def fix_iso(code):
     #TODO: We should be dealing also with *simple*
     #      language codes like pt or en or es
+    if code == "en":
+        return "en_US"
     if code.find('-') > -1:
         # we have a iso code like pt-br and FB_LOCALES uses pt_BR
         code = code.split('-')
